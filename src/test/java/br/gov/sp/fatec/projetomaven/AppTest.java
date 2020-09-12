@@ -1,7 +1,6 @@
 package br.gov.sp.fatec.projetomaven;
 
-import org.junit.Test;
-import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 /**
  * Unit test for simple App.
@@ -12,7 +11,7 @@ public class AppTest
     /**
      * Rigourous Test :-)
      */
-    @Test
+    @org.junit.jupiter.api.Test
     public void testSoma()
     {
         Calculadora calc = new Calculadora(8,2);
